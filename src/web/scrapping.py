@@ -6,5 +6,5 @@ def getData():
   @param {void}\n
   @return {void}\n
   '''
-  get_response = requests.get(url='http://<LINK_API_HERE>')
+  get_response = requests.get(url='https://api.sandbox.amadeus.com/v1.2/airports/autocomplete')
   return get_response.json()
